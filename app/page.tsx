@@ -9,7 +9,7 @@ export default function Home() {
       {/* Header */}
       <header className="container mx-auto py-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <span className="text-xl font-mono font-bold">DevName</span>
+          <span className="text-xl font-mono font-bold">Siddhant Ota</span>
         </div>
         <nav className="hidden md:flex gap-6">
           <Link href="#about" className="hover:text-[#ff3e3e] transition-colors">
@@ -50,7 +50,7 @@ export default function Home() {
       <main className="container mx-auto py-16 px-4 md:px-6 pb-24 md:pb-16">
         {/* Hero Section */}
         <section className="py-20">
-          <h1 className="text-5xl md:text-7xl font-mono mb-6">DevName;</h1>
+          <h1 className="text-5xl md:text-7xl font-mono mb-6">Siddhant;</h1>
           <ul className="space-y-2 text-lg mb-8">
             <li className="flex items-start">
               <span className="text-[#ff3e3e] mr-2">•</span> is <span className="text-[#ff3e3e] mx-2">passionate</span>{" "}
