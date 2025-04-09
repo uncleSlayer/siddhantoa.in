@@ -4,6 +4,19 @@ import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/project-card"
 
 export default function Home() {
+
+  return (
+    <div>
+      <div className="min-h-screen bg-[#121212] text-white flex flex-col justify-center items-center leading-10">
+        <h1 className="text-6xl font-mono my-3">Hi, I'm Siddhant.</h1>
+        <span className="text-lg font-mono fontmo my-3">I'm working on this website, till then check out my GitHub profile.</span>
+        <Link className="my-3" href="https://github.com/uncleSlayer">
+          <Github className="h-24 w-24 text-[#ff3e3e]" />
+        </Link>
+      </div>
+    </div>
+  )
+
   return (
     <div className="min-h-screen bg-[#121212] text-white">
       {/* Header */}
